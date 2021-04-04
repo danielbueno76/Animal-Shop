@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<top>
+<Producto>
+<Animal>Perro</Animal>
+<Raza>Pastor Alemán</Raza>
+<Precio>300 euros</Precio>
+</Producto>
+<Producto>
+<Animal>Gato</Animal>
+<Raza>Persa</Raza>
+<Precio>150 euros</Precio>
+</Producto>
+<Producto>
+<Animal>Perro</Animal>
+<Raza>Doberman</Raza>
+<Precio>500 euros</Precio>
+</Producto>
+<Producto>
+<Animal>Perro</Animal>
+<Raza>Akita Japonés</Raza>
+<Precio>200 euros</Precio>
+</Producto>
+<Producto>
+<Animal>Gato</Animal>
+<Raza>Siames</Raza>
+<Precio>100 euros</Precio>
+</Producto>
+</top>

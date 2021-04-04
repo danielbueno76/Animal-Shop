@@ -1,0 +1,131 @@
+ /*-----------Fondo toda página*/
+ body {
+	background-color:transparent;
+ }
+
+ /*----CABECERA----*/
+ #fondo {margin-top:0%; margin-left:5%; margin-right:5%; height:0*; font-family: Open sans,sans serif; background-color:transparent;min-width:320px;}
+ #cabecera{
+	 background:transparent;width:100%;height:250px; 
+ }
+  /*----Imagen que tenemos arriba----*/
+ #logo{ 
+	 width:100%;height:100%; 
+ } 
+
+/*Descripcion de la página web y localización de las sucursales*/
+#atraccion{font: italic bold 25px sans-serif; text-align: center;}
+.gifportada{width:300px;height:228px;position:relative;left:8%;}
+.localizacion {font:bold italic 20px verdana;position:relative;left:8%;}
+.imglocalizacion{width:75%;height:45%;position:relative;left:3%;min-width:200px;min-height:200px;}
+#descripcion{padding-top:50pt; padding-left:15%; padding-right:10%; width:1*; height:0*;}
+#localizacion{margin-top:40pt;}
+
+/*Imagenes que se deslizan*/
+.mySlides{width:100%;height:100%;}
+#posicionprimera{position:relative;left:0%;}
+#posicionresto1{position:absolute;top:0%;left:0%;}
+#posicionresto2{position:absolute;top:0%;left:0%;}
+#posicionresto3{position:absolute;top:0%;left:0%;}
+
+/*En caso de que no funcione JavaScript*/
+#noJava{z-index:3;width:100%;height:100%;background-color:black;color:red;}
+
+/*MENU PRINCIPAL*/ 
+nav {position: relative;height:10%; width:100%;margin:0px auto; font-family: Arial; background:#9EA279}
+ul.menu{list-style: none; width: 100%; margin: 0; padding: 0; border: 0; font-size: 0; text-align:center;}
+ul.menu ul{list-style: none; width: 100%; margin: 0; padding: 0; border: 0; font-size: 0; text-align:right;}
+ul.menu {border-bottom: 5pt solid #9EA279; background:#9EA279}
+ul.menu li {display:inline-block;margin: 0; padding: 0; font-size: 13px;line-height: 60px; width: 20%; min-width:100px;}
+ul.menu li a {display:block;padding: 0 10px; text-decoration: none; text-transform: uppercase;color: #000000;}
+ul.menu li ul {position: absolute;display:block; left: 0; width: 100%; height: 0; overflow: hidden; background: #9EA279; line-height: 0; z-index: 3;}
+ul.menu ul li {display:block;color: white;}
+ul.menu li:hover a {background: #7A682C; color :white }
+ul.menu li:hover ul {height: auto;box-shadow: 0px 2px 5px 3px #9EA279}
+ul.menu li:hover ul li a {background: transparent;}
+ul.menu li:hover ul li a:hover {text-decoration: none; color: white; background: #7080BF}
+
+/*LISTA DE MASCOTAS*/ 
+#tablamascotas{width:auto;height:auto;border:0; margin-left:5%;margin-right:5%;}
+td.mascotas{width:30%;text-align:center;}
+img.mascotas{width:100%;height:75%;}
+
+/*LISTAS DE Alimentacion*/
+#tablaalimentos{width:auto;height:auto;border:0; margin-left:10%;margin-right:5%;}
+td.alimentos{width:10%;text-align:center;}
+img.alimentos{width:50%;height:50%}
+
+/*top ventas*/
+#topventas{width:100%;height:auto;position:relative;margin-left:35%;margin-right:30%;border:2% black;text-align:center;background-color: #f6f8d8;max-width:27.5%;}
+#tamanoboton{width:200%;height:auto;position:relative;left:-35%;}
+
+/*Mostrar imagenes y ocultarlas*/
+#target0{position:fixed; top:0; left:0; display:none; height:2000px; width:100%; background:#000000; opacity:0.9;}
+#target1{position:fixed; top:0; left:0; display:none; height:2000px; width:100%; background:#000000; opacity:0.9;}
+#target2{position:fixed; top:0; left:0; display:none; height:2000px; width:100%; background:#000000; opacity:0.9;}
+#target3{position:fixed; top:0; left:0; display:none; height:2000px; width:100%; background:#000000; opacity:0.9;}
+#target4{position:fixed; top:0; left:0; display:none; height:2000px; width:100%; background:#000000; opacity:0.9;}
+#target5{position:fixed; top:0; left:0; display:none; height:2000px; width:100%; background:#000000; opacity:0.9;}
+#target6{position:fixed; top:0; left:0; display:none; height:2000px; width:100%; background:#000000; opacity:0.9;}
+#target7{position:fixed; top:0; left:0; display:none; height:2000px; width:100%; background:#000000; opacity:0.9;}
+img.emergente1{position:absolute; top:-5%; left:-5%;width:60%;height:30%;margin-top:20%;margin-left:25%; opacity:1}
+img.emergente2{position:absolute; top:-5%; left:-8%;width:50%;height:30%;margin-top:20%;margin-left:35%; opacity:1}
+
+/*Acerca de nosotros*/
+#who{position:relative; height:520px;}
+#imagen1{position:absolute;left:0%;height:308px; width:308px;}
+#imagen2{position:absolute;left:50%;height:308px; width:308px;}
+#emergente1{position:absolute;left:0%;height:308px; width:308px;}
+#emergente2{position:absolute;left:50%;height:308px; width:308px;}
+img.imagen{z-index:2;}
+div.emergente{z-index:1;}
+img.imagen:hover{z-index:1; height:308px; width:308px;}
+div.emergente:hover{z-index:2;height:308px; width:308px; background:#7092BF; color: white; opacity:0.8; text-align:center;font-size:90%;}
+a.mailto:link {color: black}
+a.mailto:visited {color: black}
+a.mailto:active{color:#7092BF}
+#quienestexto{font: italic bold 25px sans-serif; text-align: center;}
+#quienes{margin-top:30px;}
+
+/*Calculadora*/
+#escondercalculadora{position:relative;left:45%;}
+/*aspectos generales: bordes y color de fondo de calculadora, no se puede poner relative*/
+#calculadora {position:absolute;left:40%;top:-1%;border: 3px blue ridge; width: 250px;text-align: center;background-color: #f6f8d8;visibility: hidden;}
+#imagencalculadora{width:10%;height:10%;min-width:60px;min-height:60px;}
+/*pantalla de visualización: bordes, posición, color de fondo, estilo letra.*/
+#textoPantalla { width: 185px; border: 2px black solid; text-align: right; 
+                 position: relative; left: 23px;  padding: 0px 5px;
+                 background-color: white; font-family: "courier new"; 
+                 overflow: hidden;}
+
+/*botones normales: anchura y margen*/
+#calculadora [type=button] { width: 35px; padding: 0;}
+/*botones especiales*/
+#calculadora input.largo { color: red; width: 60px;}
+
+/*FORMULARIO*/
+#contactoFormulario{position:relative;color:black; width:95%; height:auto;margin:auto;padding-top:10%; margin-bottom:5%;text-align:center;}
+div.datosTotal{display:inline-block;width:100%;heigth:auto;margin-top:0px;}
+div.duda{display:inline;margin-left:2%;width:auto;box-shadow: 0 0 0px blue;padding:0px;border:0px none;}
+#contador{font-size:16px;}
+div.datosPersona{display:inline-block;margin:0px;padding:0px;border:0px none;}
+div.opcion{display:inline-block;left:0px;margin-top:20px;width:120px;font-size:16px;}
+.caja{display:inline-block;color: #000000;width: 50%;height: 10%; margin-top:10px;}
+textarea.cajaMensaje{resize:none;height:50%;width:50%;border:1% solid #000000;color: #000000;min-height:200px}
+
+
+/*Pie de página de la web*/
+/*Fecha*/
+#fecha{position:relative;text-align:center;padding-top:20px;padding-bottom:10px}
+/*Version & Resolución*/
+#version{position:relative;font-size:12px;text-align:center;padding-top:1%;padding-bottom:0%}
+#resolucion{position:relative;font-size:12px;text-align:center;padding-top:1%;padding-bottom:1%}
+
+/*PHP iniciar sesion*/
+div.opcion2{display:inline-block;left:0px;margin-top:20px;width:40%;font-size:16px;}
+.caja2{display:inline-block;color: #000000;width: 50%;height: 10%; margin-top:10px;}
+/*PHP usuario creado*/
+#crearusuario{position:relative;text-align:center;padding-top:20px;padding-bottom:10px;}
+.mensajeusuario{font: italic bold 25px sans-serif; text-align: center;}
+/*PHP usuario seleccionar*/
+.tabla{position:relative;top:0; left:15%;text-align: center;}

@@ -1,0 +1,4 @@
+cd Programfilesx86/mysql/mysqlserver/bin
+mysql -h vulcano.tel.uva.es -u ldst004 -p 
+
+ct528w9a
